@@ -1,0 +1,87 @@
+@import "./fonts.css";
+
+*{
+  font-size: 62.5%;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: black;
+  margin: 0 auto;
+  width: 98%;
+}
+
+/* Main section */
+.cta{
+  /* border: .2rem solid orange; */
+  height: 80vh;
+  background: url("../img/img.png") center no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  border-bottom: 1rem solid gray;
+}
+
+/* Nav bar */
+.main-nav{
+  /* border: .2rem solid red; */
+  padding: 1.5rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Nav logo text */
+.main-nav .nav__logo-container .logo-text{
+  font-size: 3rem;
+  color: red;
+  font-family: "operator mono";
+}
+
+/* Nav Button */
+.main-nav a{
+  font-size: 2rem;
+  background-color: red;
+  color: white;
+  padding: .8rem 1.2rem;
+  border-radius: .5rem;
+  text-decoration: none;
+  font-family: "operator mono";
+}
+
+/* Main section container */
+.cta-content__container{
+  /* border: 2px solid orange; */
+  height: 100%;
+}
+
+/* Main Section Text */
+.cta-text__container{
+  /* border: 2px solid orange; */
+  color: white;
+  width: 100%;
+  position: relative;
+  text-align: center;
+  top: 65%;
+  font-size: 6rem;
+}
+
+/* Site Features */
+.card{
+  background-color: black;
+  border-top: 5px solid gray;
+  border-bottom: 5px solid gray;;
+  height: 50vh;
+}
+
+.card h2{
+  font-size: 3rem;
+  color: white;
+}
+
+.card p{
+  font-size: 1.6rem;
+  color: white;
+}
